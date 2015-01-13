@@ -20,6 +20,11 @@ condenseWhitespace('  foo bar     baz ');
 ```
 
 
+## Related
+
+- [`trim-repeated`](https://github.com/sindresorhus/trim-repeated) - Trim a consecutively repeated substring: `foo--bar---baz` → `foo-bar-baz`
+
+
 ## License
 
 MIT © [Sindre Sorhus](http://sindresorhus.com)
