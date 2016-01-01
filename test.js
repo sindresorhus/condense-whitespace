@@ -1,8 +1,6 @@
-'use strict';
-var test = require('ava');
-var condenseWhitespace = require('./');
+import test from 'ava';
+import m from './';
 
-test(function (t) {
-	t.assert(condenseWhitespace('  foo bar     baz ') === 'foo bar baz');
-	t.end();
+test(t => {
+	t.is(m('  foo bar     baz '), 'foo bar baz');
 });
