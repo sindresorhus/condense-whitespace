@@ -6,14 +6,14 @@
 ## Install
 
 ```
-$ npm install --save condense-whitespace
+$ npm install condense-whitespace
 ```
 
 
 ## Usage
 
 ```js
-var condenseWhitespace = require('condense-whitespace');
+const condenseWhitespace = require('condense-whitespace');
 
 condenseWhitespace('  foo bar     baz ');
 //=> 'foo bar baz'
@@ -27,4 +27,4 @@ condenseWhitespace('  foo bar     baz ');
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)

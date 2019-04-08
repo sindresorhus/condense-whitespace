@@ -1,6 +1,6 @@
 import test from 'ava';
-import m from './';
+import condenseWhitespace from '.';
 
-test(t => {
-	t.is(m('  foo bar     baz '), 'foo bar baz');
+test('main', t => {
+	t.is(condenseWhitespace('  foo bar     baz '), 'foo bar baz');
 });
