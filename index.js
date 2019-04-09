@@ -1,8 +1,8 @@
 'use strict';
-module.exports = function (str, opts) {
-	if (typeof str !== 'string') {
+module.exports = string => {
+	if (typeof string !== 'string') {
 		throw new TypeError('Expected a string');
 	}
 
-	return str.trim().replace(/\s{2,}/g, ' ');
+	return string.trim().replace(/\s{2,}/g, ' ');
 };
