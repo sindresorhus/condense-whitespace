@@ -1,5 +1,5 @@
 /**
-Remove leading, trailing and repeated whitespace from a string.
+Remove leading, trailing, and repeated whitespace from a string.
 
 @example
 ```
@@ -9,6 +9,6 @@ condenseWhitespace('  foo bar     baz ');
 //=> 'foo bar baz'
 ```
 */
-declare function condenseWhitespace(str: string): string;
+declare function condenseWhitespace(string: string): string;
 
 export = condenseWhitespace;

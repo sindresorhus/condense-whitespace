@@ -1,7 +1,7 @@
 {
 	"name": "condense-whitespace",
 	"version": "1.0.0",
-	"description": "Remove leading, trailing and repeated whitespace from a string",
+	"description": "Remove leading, trailing, and repeated whitespace from a string",
 	"license": "MIT",
 	"repository": "sindresorhus/condense-whitespace",
 	"author": {
@@ -27,7 +27,6 @@
 		"compact",
 		"repeated",
 		"string",
-		"str",
 		"trim",
 		"remove",
 		"strip"

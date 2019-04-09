@@ -1,6 +1,6 @@
 # condense-whitespace [![Build Status](https://travis-ci.org/sindresorhus/condense-whitespace.svg?branch=master)](https://travis-ci.org/sindresorhus/condense-whitespace)
 
-> Remove leading, trailing and repeated whitespace from a string
+> Remove leading, trailing, and repeated whitespace from a string
 
 
 ## Install
