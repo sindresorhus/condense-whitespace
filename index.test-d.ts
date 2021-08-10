@@ -1,4 +1,4 @@
 import {expectType} from 'tsd';
-import condense = require('.');
+import condenseWhitespace from './index.js';
 
-expectType<string>(condense('   \n\n\t Hello    World \t\n'));
+expectType<string>(condenseWhitespace('   \n\n\t Hello    World \t\n'));
